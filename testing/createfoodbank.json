@@ -1,0 +1,73 @@
+{
+    "name": "Bellingham Food Bank",
+    "address1": "1824 Ellis St",
+    "city": "Bellingham",
+    "stateRegion": "WA",
+    "addressCode": "98225",
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "360.676.0392"
+        },
+        {
+            "numberType": "Tollfree",
+            "number": "800.833.6388"
+        }
+    ],
+    "url": "https://www.bellinghamfoodbank.org/",
+    "email": "info@bellinghamfoodbank.org",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/BellinghamFoodBank/"
+        },
+        {
+            "socialName": "instagram",
+            "socialLink": "https://www.instagram.com/bellinghamfoodbank/"
+        }
+    ]
+}
+
+{
+    "name": "Ferndale Food Bank",
+    "address1": "1671 Main Street",
+    "city": "Ferndale",
+    "stateRegion": "WA",
+    "addressCode": "98248",
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "360-223-0788"
+        }
+    ],
+    "url": "http://ferndalefoodbank.org/",
+    "email": "director@ferndalefoodbank.org",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/FerndaleFoodBank/"
+        }
+    ]
+}
+
+{
+    "name": "Blaine Food Bank",
+    "address1": "500 C Street",
+    "city": "Blaine",
+    "stateRegion": "WA",
+    "addressCode": "98230",
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "360-332-6350"
+        }
+    ],
+    "url": "https://www.blainefoodbank.org/",
+    "email": "blainefood@hotmail.com",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/Blaine-FOOD-BANK-105752871091987"
+        }
+    ]
+}

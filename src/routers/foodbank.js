@@ -14,5 +14,18 @@ foodbankRouter.get("/", async (req, res) => {
 
 })
 
+foodbankRouter.post("/foodbank", async (req, res) => {
+    const foodbank = new Foodbank({
+        ...req.body
+    })
+    try {
+        await foodbank.save()
+        res.status(201).send(foodbank)
+    } catch (e) {
+        res.status(400).send(e)
+    }
+
+})
 
 module.exports = foodbankRouter
+
