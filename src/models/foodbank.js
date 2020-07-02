@@ -95,7 +95,3 @@ const Foodbank = mongoose.model('Foodbank', foodbankSchema)
 
 module.exports = Foodbank
 
-    // (FoodBankParentId,
-    //     FoodBankName, Address1, Address2, City, StateRegion, CountryId, addressCode,
-    //     Other, Latitude, Longitude, CreateDate, ModifyDate, IsDeleted) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
-    //     [

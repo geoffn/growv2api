@@ -8,7 +8,8 @@ const app = express();
 const foodbankRouter = require("./src/routers/foodbank");
 
 
-const port = process.env.port || 3001
+// const port = process.env.port || 3001
+const port = 3001
 
 app.use(express.json())
 
