@@ -8,7 +8,7 @@ const app = express();
 const foodbankRouter = require("./src/routers/foodbank");
 
 
-const port = process.env.port || 3000
+const port = process.env.port || 3001
 
 app.use(express.json())
 
@@ -22,6 +22,6 @@ app.use(foodbankRouter)
 //app.use('/api/user', userRouter);
 
 
-app.listen(process.env.APP_PORT, () => {
-    console.log("server running on " + process.env.APP_PORT)
+app.listen(port, () => {
+    console.log("server running on " + port)
 });
