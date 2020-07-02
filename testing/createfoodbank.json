@@ -4,6 +4,8 @@
     "city": "Bellingham",
     "stateRegion": "WA",
     "addressCode": "98225",
+    "latitude": 48.754780,
+    "longitude": -122.471877,
     "phones": [
         {
             "numberType": "Primary",
@@ -26,8 +28,7 @@
             "socialLink": "https://www.instagram.com/bellinghamfoodbank/"
         }
     ]
-}
-
+},
 {
     "name": "Ferndale Food Bank",
     "address1": "1671 Main Street",
@@ -48,8 +49,7 @@
             "socialLink": "https://www.facebook.com/FerndaleFoodBank/"
         }
     ]
-}
-
+},
 {
     "name": "Blaine Food Bank",
     "address1": "500 C Street",
@@ -68,6 +68,80 @@
         {
             "socialName": "facebook",
             "socialLink": "https://www.facebook.com/Blaine-FOOD-BANK-105752871091987"
+        }
+    ]
+},
+{
+    "name": "San Francisco-Marin Food Bank",
+    "address1": "900 Pennsylvania Avenue",
+    "city": "San Francisco",
+    "stateRegion": "CA",
+    "addressCode": "94107",
+    "latitude": 37.761709,
+    "longitude": -122.377864,
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "415-282-1900"
+        }
+    ],
+    "url": "https://www.sfmfoodbank.org/",
+    "email": "info@sfmfoodbank.org",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/sfmfoodbank"
+        },
+        {
+            "socialName": "instagram",
+            "socialLink": "https://www.instagram.com/sfmfoodbank/"
+        },
+        {
+            "socialName": "twitter",
+            "socialLink": "https://twitter.com/SFMFoodBank"
+        },
+        {
+            "socialName": "youtube",
+            "socialLink": "https://www.youtube.com/sfmfoodbank"
+        }
+    ]
+},
+{
+    "name": "North Texas Food Bank",
+    "address1": "3677 Mapleshade Ln",
+    "city": "Plano",
+    "stateRegion": "TX",
+    "addressCode": "75075",
+    "latitude": 33.004028,
+    "longitude": -96.759563,
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "214-269-0906"
+        },
+        {
+            "numberType": "Toll Free",
+            "number": "1-855-719-7627"
+        }
+    ],
+    "url": "https://ntfb.org/",
+    "email": "info@sntfb.org",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/northtexasfoodbank/"
+        },
+        {
+            "socialName": "instagram",
+            "socialLink": "https://www.instagram.com/northtexasfoodbank/"
+        },
+        {
+            "socialName": "twitter",
+            "socialLink": "https://twitter.com/ntfb"
+        },
+        {
+            "socialName": "linkedin",
+            "socialLink": "https://www.linkedin.com/company/north-texas-food-bank/"
         }
     ]
 }
