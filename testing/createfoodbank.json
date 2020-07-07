@@ -144,4 +144,85 @@
             "socialLink": "https://www.linkedin.com/company/north-texas-food-bank/"
         }
     ]
+},
+{
+    "name": "Oregon Food Bank",
+    "address1": "7900 NE 33rd Dr",
+    "city": "Portland",
+    "stateRegion": "OR",
+    "addressCode": "97211",
+    "latitude": 45.580754,
+    "longitude": -122.632321,
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "503.282.0555"
+        }
+    ],
+    "url": "https://www.oregonfoodbank.org/",
+    "email": "contact@oregonfoodbank.org",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/oregonfoodbank"
+        },
+        {
+            "socialName": "instagram",
+            "socialLink": "https://www.instagram.com/oregonfoodbank/"
+        },
+        {
+            "socialName": "twitter",
+            "socialLink": "https://twitter.com/oregonfoodbank"
+        },
+        {
+            "socialName": "linkedin",
+            "socialLink": "https://www.linkedin.com/company/oregon-food-bank/"
+        },
+        {
+            "socialName": "vimeo",
+            "socialLink": "https://vimeo.com/oregonfoodbank"
+        },
+        {
+            "socialName": "youtube",
+            "socialLink": "https://www.youtube.com/user/oregonfoodbank"
+        }
+    ]
+},
+{
+    "name": "Los Angeles Regional Food Bank",
+    "address1": "1734 East 41st Street",
+    "city": "Los Angeles",
+    "stateRegion": "CA",
+    "addressCode": "90058",
+    "latitude": 34.008090,
+    "longitude": -118.241816,
+    "phones": [
+        {
+            "numberType": "Primary",
+            "number": "323.234.3030"
+        }
+    ],
+    "url": "https://www.lafoodbank.org/",
+    "social": [
+        {
+            "socialName": "facebook",
+            "socialLink": "https://www.facebook.com/lafoodbank"
+        },
+        {
+            "socialName": "instagram",
+            "socialLink": "https://instagram.com/lafoodbank/"
+        },
+        {
+            "socialName": "twitter",
+            "socialLink": "https://twitter.com/LAFoodBank"
+        },
+        {
+            "socialName": "linkedin",
+            "socialLink": "https://www.linkedin.com/company/los-angeles-regional-food-bank"
+        },
+        {
+            "socialName": "youtube",
+            "socialLink": "https://www.youtube.com/channel/UCEMhxOxztW621Wl9djIJpsQ?sub_confirmation=1"
+        }
+    ]
 }

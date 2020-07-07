@@ -6,7 +6,7 @@ foodbankRouter.get("/foodbank", async (req, res) => {
     try {
         const foodbank = await Foodbank.find({})
         //foodbank.save()
-        res.send({ results: foodbank })
+        res.status(200).send({ results: foodbank })
 
     } catch (e) {
         res.send(e + 'error')

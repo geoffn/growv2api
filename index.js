@@ -1,6 +1,7 @@
 require("dotenv").config();
 require('./src/db/mongoose')
 const express = require("express");
+const cors = require('cors')
 
 const app = express();
 
@@ -17,7 +18,7 @@ app.use(foodbankRouter)
 
 //const userRouter = require("./api/user/user.router");
 
-
+app.use(cors())
 
 
 //app.use('/api/user', userRouter);
