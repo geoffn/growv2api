@@ -39,6 +39,27 @@ foodbankRouter.post("/foodbank", async (req, res) => {
 
 })
 
+foodbankRouter.post("/foodbankbulk", async (req, res) => {
+    var foodbankArray = new Foodbank()
+
+    //console.log(req.body)
+
+    await foodbankArray.collection.insert(req.body, onInsert)
+    // .then(results => console.log(results))
+    // .catch(e => console.log(e))
+
+    function onInsert(err, docs) {
+        if (err) {
+            console.log(err)
+            res.status(400).send(e)
+        } else {
+
+            res.status(201).send()
+        }
+    }
+
+})
+
 foodbankRouter.delete("/foodbank/:id", async (req, res) => {
     try {
         const foodbank = await Foodbank.findByIdAndDelete(req.params.id)
