@@ -1,10 +1,11 @@
-const mongoose = require('../db/mongoose')
+const mongoose = require('mongoose')
 const validator = require('validator')
+
 
 const eventSchema = new mongoose.Schema({
     title: {
         type: String,
-        required: true
+        trim: true
     },
     description: {
         type: String,
@@ -15,6 +16,43 @@ const eventSchema = new mongoose.Schema({
     },
     endTime: {
         type: Date
+    },
+    name: {
+        type: String,
+        trim: true
+    },
+    address1: {
+        type: String,
+        trim: true
+    },
+    address2: {
+        type: String
+    },
+    city: {
+        type: String,
+        trim: true
+    },
+    stateRegion: {
+        type: String,
+        trim: true
+    },
+    countryId: {
+        type: Number,
+        default: 01
+    },
+    addressCode: {
+        type: String,
+        trim: true
+    },
+    latitude: {
+        type: Number
+    },
+    longitude: {
+        type: Number
+    },
+    isDeleted: {
+        type: Boolean,
+        default: false
     },
     phones: [
         {
@@ -60,7 +98,7 @@ const eventSchema = new mongoose.Schema({
     foodbanks: [
         {
             foodbankId: {
-                type: ObjectId
+                type: mongoose.Schema.Types.ObjectId
             }
         }
     ]

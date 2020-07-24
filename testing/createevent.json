@@ -1,0 +1,124 @@
+{
+    "title": ,
+    "description": ,
+    "startTime": ,
+    "endTime": ,
+    "name": ,
+    "address1": ,
+    "city": ,
+    "stateRegion": ,
+    "addressCode": ,
+    "latitude": ,
+    "longitude": ,
+    "phones": [
+        {
+            "numberType": ,
+            "number":
+        }
+    ],
+    "url": ,
+    "social": [
+        {
+            "socialName": ,
+            "socialLink":
+        }
+    ],
+    "email":
+]
+
+
+[
+    {
+        "description": "Need help with several apple trees in my front yard.",
+        "startTime": "2020-08-04",
+        "endTime": "2020-08-07",
+        "name": "Geoff Owner",
+        "address1": "1824 Ellis St",
+        "city": "Bellingham",
+        "stateRegion": "WA",
+        "addressCode": "98225",
+        "latitude": 48.754780,
+        "longitude": -122.471877,
+        "phones": [
+            {
+                "numberType": "Primary",
+                "number": "206-850-8599"
+            }
+        ],
+        "email": "geoff@gmail.com"
+    },
+    {
+        "title": "Help get out the message",
+        "description": "Organizing a group to staff a booth at the farmers market over the next couple of Saturdays.  Our goal is to get out the message that we can help harvest their fruit and donate it.",
+        "startTime": "2020-07-25",
+        "endTime": "2020-08-01",
+        "name": "Geoff Owner",
+        "address1": "1100 Railroad Ave",
+        "city": "Bellingham",
+        "stateRegion": "WA",
+        "addressCode": "98225",
+        "latitude": 48.746975,
+        "longitude": -122.480621,
+        "phones": [
+            {
+                "numberType": "Primary",
+                "number": "555-850-8599"
+            }
+        ],
+        "email": "farmers@gmail.com"
+    },
+    {
+        "title": "Sunnyland neighborhood",
+        "description": "We have several neighbors that want to donate from several different properties.  Please join us to social distance and pick fruit.  All donations go to local food bank.",
+        "startTime": "2020-07-25 11:30",
+        "endTime": "2020-07-25 14:00",
+        "name": "Geoff Sunnyland",
+        "address1": "2199 Humboldt St",
+        "city": "Bellingham",
+        "stateRegion": "WA",
+        "addressCode": "98225",
+        "latitude": 48.758147,
+        "longitude": -122.468191,
+        "phones": [
+            {
+                "numberType": "cell",
+                "number": "555-555-5050"
+            }
+        ],
+        "url": "http://www.sunnyland.com/neighborhood",
+        "social": [
+            {
+                "socialName": "facebook",
+                "socialLink": "https://www.facebook.com/sunnyland/event"
+            }
+        ],
+        "email": "geoff@sunnyland.com"
+    },
+    {
+        "title": "Padden neighborhood",
+        "description": "Lake Padden food drive.  Please join us to social distance and pick fruit.  All donations go to local food bank.",
+        "startTime": "2020-07-29 11:30",
+        "endTime": "2020-07-29 14:00",
+        "name": "Lake Padden",
+        "address1": "4854 Samish Way",
+        "city": "Bellingham",
+        "stateRegion": "WA",
+        "addressCode": "98229",
+        "latitude": 48.706306,
+        "longitude": -122.446143,
+        "phones": [
+            {
+                "numberType": "cell",
+                "number": "555-555-5000"
+            }
+        ],
+        "url": "http://www.lakepadden",
+        "social": [
+            {
+                "socialName": "twitter",
+                "socialLink": "https://www.twitter.com/lakepadden/event"
+            }
+        ],
+        "email": "geoff@lakepadden.com"
+    }
+]

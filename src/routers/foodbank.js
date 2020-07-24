@@ -1,8 +1,9 @@
 const express = require('express')
 const foodbankRouter = new express.Router
 const Foodbank = require('../models/foodbank')
+const cors = require('cors')
 
-foodbankRouter.get("/foodbank", async (req, res) => {
+foodbankRouter.get("/foodbank", cors(), async (req, res) => {
     try {
         const foodbank = await Foodbank.find({})
         //foodbank.save()
@@ -44,7 +45,7 @@ foodbankRouter.post("/foodbankbulk", async (req, res) => {
 
     //console.log(req.body)
 
-    await foodbankArray.collection.insert(req.body, onInsert)
+    foodbankArray.collection.insert(req.body, onInsert)
     // .then(results => console.log(results))
     // .catch(e => console.log(e))
 

@@ -36,6 +36,8 @@
         "city": "Ferndale",
         "stateRegion": "WA",
         "addressCode": "98248",
+        "latitude": 48.999546,
+        "longitude": -122.745838,
         "phones": [
             {
                 "numberType": "Primary",
@@ -224,6 +226,62 @@
             {
                 "socialName": "youtube",
                 "socialLink": "https://www.youtube.com/channel/UCEMhxOxztW621Wl9djIJpsQ?sub_confirmation=1"
+            }
+        ]
+    },
+    {
+        "name": "Montgomery Area Food Bank",
+        "address1": "521 Trade Center St",
+        "city": "Montgomery",
+        "stateRegion": "AL",
+        "addressCode": "36108",
+        "latitude": 32.371862,
+        "longitude": -86.345141,
+        "phones": [
+            {
+                "numberType": "Primary",
+                "number": "334-263-3784"
+            }
+        ],
+        "url": "http://www.montgomeryareafoodbank.org/",
+        "social": [
+            {
+                "socialName": "twitter",
+                "socialLink": "https://twitter.com/FeedingHopeAL"
+            }
+        ]
+    },
+    {
+        "name": "Community Food Bank of Central Alabama",
+        "address1": "107 Walter Davis Drive",
+        "city": "Birmingham",
+        "stateRegion": "AL",
+        "addressCode": "35209",
+        "latitude": 33.473756,
+        "longitude": -86.837635,
+        "phones": [
+            {
+                "numberType": "Primary",
+                "number": "205-942-8911"
+            }
+        ],
+        "url": "https://www.feedingal.org/",
+        "social": [
+            {
+                "socialName": "facebook",
+                "socialLink": "https://www.facebook.com/feedingAL/"
+            },
+            {
+                "socialName": "instagram",
+                "socialLink": "https://www.instagram.com/feedingAL/"
+            },
+            {
+                "socialName": "twitter",
+                "socialLink": "https://twitter.com/feedingAL"
+            },
+            {
+                "socialName": "youtube",
+                "socialLink": "https://www.youtube.com/user/FoodBankCentralAL"
             }
         ]
     }
