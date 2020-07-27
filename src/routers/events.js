@@ -31,7 +31,7 @@ eventRouter.get("/event", cors(), async (req, res) => {
 
 
 
-eventRouter.post('/event', async (req, res) => {
+eventRouter.post("/event", cors(), async (req, res) => {
 
     const event = new Event({
         ...req.body

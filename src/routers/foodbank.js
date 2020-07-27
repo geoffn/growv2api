@@ -15,7 +15,7 @@ foodbankRouter.get("/foodbank", cors(), async (req, res) => {
 
 })
 
-foodbankRouter.get("/foodbank/:id", async (req, res) => {
+foodbankRouter.get("/foodbank/:id", cors(), async (req, res) => {
     try {
         const foodbank = await Foodbank.findById(req.params.id)
 
@@ -27,7 +27,7 @@ foodbankRouter.get("/foodbank/:id", async (req, res) => {
 
 })
 
-foodbankRouter.post("/foodbank", async (req, res) => {
+foodbankRouter.post("/foodbank", cors(), async (req, res) => {
     const foodbank = new Foodbank({
         ...req.body
     })
@@ -40,7 +40,7 @@ foodbankRouter.post("/foodbank", async (req, res) => {
 
 })
 
-foodbankRouter.post("/foodbankbulk", async (req, res) => {
+foodbankRouter.post("/foodbankbulk", cors(), async (req, res) => {
     var foodbankArray = new Foodbank()
 
     //console.log(req.body)
@@ -61,7 +61,7 @@ foodbankRouter.post("/foodbankbulk", async (req, res) => {
 
 })
 
-foodbankRouter.delete("/foodbank/:id", async (req, res) => {
+foodbankRouter.delete("/foodbank/:id", cors(), async (req, res) => {
     try {
         const foodbank = await Foodbank.findByIdAndDelete(req.params.id)
         console.log(foodbank)
