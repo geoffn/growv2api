@@ -5,11 +5,17 @@ const validator = require('validator')
 const eventSchema = new mongoose.Schema({
     title: {
         type: String,
-        trim: true
+        trim: true,
+        required: true
     },
     description: {
         type: String,
         required: true
+    },
+    eventType: {
+        type: String,
+        required: true,
+        trim: true
     },
     startTime: {
         type: Date

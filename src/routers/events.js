@@ -18,6 +18,26 @@ eventRouter.get("/event/addressCode/:addressCode", cors(), async (req, res) => {
     }
 
 })
+
+eventRouter.get("/event/search/:search", cors(), async (req, res) => {
+    //Geocode address and get lat/lng
+    //add lat/lng to the search parameters
+    //return results
+    console.log("searchaddress")
+    eventLatLng = await geocodeAddress(req.params.search)
+
+    try {
+        const event = await Event.find({
+            latitude: { $gt: eventLatLng.lat - .3, $lt: eventLatLng.lat + .3 },
+            longitude: { $gt: eventLatLng.lng - .3, $lt: eventLatLng.lng + .3 }
+        })
+
+        res.status(200).send({ results: event })
+    } catch (e) {
+        res.send(e)
+    }
+
+})
 eventRouter.get("/event", cors(), async (req, res) => {
     try {
         const event = await Event.find({})

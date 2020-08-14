@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express();
 
 //Import our user router and call
-const foodbankRouter = require("./src/routers/foodbank");
+const organizationRouter = require("./src/routers/organization");
 const eventRouter = require("./src/routers/events")
 //const userRouter = require("./api/user/user.router");
 var corsOptions = {
@@ -23,7 +23,7 @@ const port = 3001
 
 app.use(express.json())
 
-app.use(foodbankRouter)
+app.use(organizationRouter)
 app.use(eventRouter)
 
 

@@ -1,7 +1,12 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
 
-const foodbankSchema = new mongoose.Schema({
+const organizationSchema = new mongoose.Schema({
+    type: {
+        type: String,
+        required: true,
+        trim: true
+    },
     name: {
         type: String,
         required: true,
@@ -91,7 +96,7 @@ const foodbankSchema = new mongoose.Schema({
     timestamps: true
 })
 
-const Foodbank = mongoose.model('Foodbank', foodbankSchema)
+const Organization = mongoose.model('Organization', organizationSchema)
 
-module.exports = Foodbank
+module.exports = Organization
 

@@ -29,7 +29,9 @@
 
 [
     {
+        "title": "Front yard trees need picking",
         "description": "Need help with several apple trees in my front yard.",
+        "eventType": "Harvest",
         "startTime": "2020-08-04",
         "endTime": "2020-08-07",
         "name": "Geoff Owner",
@@ -50,6 +52,7 @@
     {
         "title": "Help get out the message",
         "description": "Organizing a group to staff a booth at the farmers market over the next couple of Saturdays.  Our goal is to get out the message that we can help harvest their fruit and donate it.",
+        "eventType": "Service",
         "startTime": "2020-07-25",
         "endTime": "2020-08-01",
         "name": "Geoff Owner",
@@ -70,6 +73,7 @@
     {
         "title": "Sunnyland neighborhood",
         "description": "We have several neighbors that want to donate from several different properties.  Please join us to social distance and pick fruit.  All donations go to local food bank.",
+        "eventType": "Harvest",
         "startTime": "2020-07-25 11:30",
         "endTime": "2020-07-25 14:00",
         "name": "Geoff Sunnyland",
