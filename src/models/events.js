@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
+const Organization = require('./organization')
 
 
 const eventSchema = new mongoose.Schema({
@@ -101,14 +102,12 @@ const eventSchema = new mongoose.Schema({
             }
         }
     },
-    foodbanks: [
+    organizations: [
         {
-            foodbankId: {
-                type: mongoose.Schema.Types.ObjectId
-            }
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Organization'
         }
     ]
-
 }, {
     timestamps: true
 })

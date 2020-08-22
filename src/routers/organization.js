@@ -5,7 +5,7 @@ const cors = require('cors')
 
 organizationRouter.get("/organization", cors(), async (req, res) => {
     try {
-        const foodbank = await Organization.find({})
+        const organization = await Organization.find({})
         //organization.save()
         res.status(200).send({ results: organization })
 

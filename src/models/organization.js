@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
+const Event = require('./events')
 
 const organizationSchema = new mongoose.Schema({
     type: {
@@ -89,12 +90,21 @@ const organizationSchema = new mongoose.Schema({
                 throw new Error('Email is invalid')
             }
         }
-    }
+    },
+    events: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Event"
+        }
+    ]
+
 
 
 }, {
     timestamps: true
 })
+
+
 
 const Organization = mongoose.model('Organization', organizationSchema)
 
