@@ -2,6 +2,8 @@ const express = require('express')
 const Event = require('../models/events')
 const Organization = require("../models/organization")
 
+
+//Assign an Event to an Organization
 module.exports.addEventToOrg = async (eventID, orgID) => {
 
     try {
@@ -15,6 +17,6 @@ module.exports.addEventToOrg = async (eventID, orgID) => {
         console.log("Unable to assign organization", e)
     }
 
-
-
 }
+
+

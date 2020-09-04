@@ -69,42 +69,15 @@ eventRouter.post("/event", cors(), async (req, res) => {
 
         console.log(req.body)
 
-        //is org id populated? add to event
+        //is org id populated? add to event and add event to org
         if (req.body.organizationID) {
 
             await OrganizationController.addOrgToEvent(event._id, req.body.organizationID)
-            // try {
-            //     const addOrgtoEvent = await Event.findByIdAndUpdate(
-            //         { _id: event._id },
-            //         { $push: { organizations: req.body.organizationID } },
-            //         { new: true, useFindAndModify: false }
-            //     )
-            // } catch (e) {
-            //     console.log("Unable to assign organization", e)
-            // }
 
             await EventController.addEventToOrg(event._id, req.body.organizationID)
-            // try {
 
-            //     const consoleOrg = await Organization.findById({ _id: req.body.organizationID })
-            //     console.log(consoleOrg)
-            //     const addEventtoOrg = await Organization.findByIdAndUpdate(
-            //         { _id: req.body.organizationID },
-            //         { $push: { events: event._id } },
-            //         { new: true, useFindAndModify: false }
-            //     )
-            // } catch (e) {
-            //     console.log("Unable to assign organization", e)
-            // }
         }
 
-
-        //if event was created with an Organization ID
-        //Update Event with orginazation ID,
-        //Event will have to include the address from front end.
-        //If Use Org address is true then we should not need to lookup anything
-        //else assign address and look up lat/lang
-        //After save
         //If lat and lng were not provided then look them up and update event.
 
         if (!event.latitude || !event.longitude) {

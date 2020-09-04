@@ -1,5 +1,6 @@
 [
     {
+        "type": "Harvest",
         "name": "Bellingham Food Bank",
         "address1": "1824 Ellis St",
         "city": "Bellingham",
@@ -31,6 +32,7 @@
         ]
     },
     {
+        "type": "Foodbank",
         "name": "Ferndale Food Bank",
         "address1": "1671 Main Street",
         "city": "Ferndale",
